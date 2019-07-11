@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+	<link rel="stylesheet" type="text/css" href="css/adminpanel.css">
+</head>
+<body>
+	<div class='container'>
+  <div class='section menu'>
+  	<nav id="main-nav">
+	<a href="#home" id="hom-page"> Way<i>Farer</i></a>
+    <a href="home.html" id="cont">sign Out</a>
+	
+</nav>
+
+</div>
+  <div class='section header'>
+  <div class="topnav" id="myTopnav">
+  <a href="#home">Home</a>
+  <a href="#profile">profile</a>
+  <a href="#trips">All trips</a>
+  <a href="#book">Bookings</a>
+</div>
+    
+  </div>
+  <div class='section content'>
+    <table id="trips">
+		<tr>
+			<td><h1>List Of All trips</h1></td>
+			
+		</tr>
+		<tr>
+			<th>#</th>
+			<th>Origin</th>
+			<th>destination</th>
+			<th>cost</th>
+			
+
+
+
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Kigali</td>
+			<td>Kampala</td>
+			<td>$30</td>
+			<td><button>View</button></td>
+			<td><button>cancel trip</button></td>
+
+			
+		</tr>
+	</table>
+  </div>
+  <div id="book" class='section feature-0'>
+    <table >
+		<tr>
+			<td><h1>bookings</h1></td>
+			
+		</tr>
+		<tr>
+			<th>#</th>
+			<th>fullname</th>
+			<th>Origin</th>
+			<th>destination</th>
+			<th>day</th>
+			
+
+
+
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>cartet007</td>
+			<td>Kigali</td>
+			<td>Kampala</td>
+			<td>thursday</td>
+	
+		</tr>
+	</table>
+  </div>
+  <div id="home" class='section feature-1'>
+    <img src="images/picture.png">
+		<p>user details</p>  </div>
+
+  <div id="home" class='section feature-3'>
+  	<div id="signup">
+      
+      <p>Please fill in this form to create a trip.</p>
+      <hr>
+      <form>
+      <label id="user"><b>origin</b></label>
+      <input type="text" placeholder="Enter Origin" name="origin" required>
+     
+      <label id="email"><b>destination</b></label>
+      <input type="text" placeholder="Enter Destination" name="destination" required>
+
+      <label id="psw"><b>cost</b></label>
+      <input type="number" placeholder="Enter Cost" name="psw" required>
+
+      <div id="btn">
+        <button type="submit" id="sign">submit >> </button>
+      </div>
+ 
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

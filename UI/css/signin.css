@@ -1,0 +1,70 @@
+body {
+	
+	
+	background: #c4b792;
+	text-transform: uppercase;
+}
+#container{
+	width: 260px;
+	height: 350px;
+	border-radius: 10px;
+	margin: auto;
+	background: #C8C6FA;
+	box-sizing: border-box;
+	padding: 40px;
+	margin-top: 200px;
+	
+
+}
+#us-cont,#pass-cont,h2{
+	text-align: center;
+	font-size: 13px;
+	
+	font-family: monospace;
+	
+	
+	
+
+}
+#us-cont,#pass-cont{
+	letter-spacing: 0.2em;
+
+}
+h2,label{
+	
+	color: #000;
+	text-transform: uppercase;
+
+
+}
+
+ input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  box-sizing: border-box;
+
+  display: inline-block;
+  border: none;
+  background: rgb(0,0,0,0.6);
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #cdf;
+  outline: none;
+}
+input[type=submit]:hover{
+	background: #083a61;
+	opacity: 0.7;
+
+}
+input[type=submit]{
+	font-size: 10px;
+	height: 30px;
+	width: 80px;
+	display: block;
+	border: none;
+	margin: 1em auto;
+	background-color: #1e90ff;
+	font-family: monospace;
+	font-size: 13px;
+}

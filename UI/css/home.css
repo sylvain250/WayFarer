@@ -1,0 +1,154 @@
+body{
+	font-family: monospace;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	background: #F5CF8E;
+	 }
+#main-nav{
+	margin: 20px;
+	font-size: 1.3em;
+	
+
+}
+#main-nav a{
+  position: relative;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color:dodgerblue;
+
+
+
+  
+
+  
+}
+#cont{
+	float: right;
+}
+h2,p{
+	color: black;
+	text-align: center;
+	right: 61%;
+	top:20%;
+
+	
+
+}
+#cont2{
+	
+
+}
+#term{
+	color: dodgerblue;
+	text-decoration: none;
+}
+#goto{
+	color: dodgerblue;
+	text-decoration: none;
+
+}
+#check{
+	margin-bottom:15px;
+
+}
+ {box-sizing: border-box}
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  box-sizing: border-box;
+
+  display: inline-block;
+  border: none;
+  background: rgb(0,0,0,0.6);
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #cdf;
+  outline: none;
+}
+@media screen and (max-width: 300px) {
+    #sign {
+    width: 100%;
+  }
+}
+#signup {
+  padding: 10px;
+  margin: 2% 20px 15% auto; /* 2% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  background-color: #C8C6FA;
+}
+hr{
+	border: 1px solid #888;
+
+}
+button[type=submit]{
+	font-size: 10px;
+	height: 35px;
+	width: 85px;
+	display: block;
+	border: none;
+	margin: 1em auto;
+	background-color: #1e90ff;
+	font-family: monospace;
+	font-size: 13px;
+}
+#sign:hover{
+	background: #083a61;
+	opacity: 0.7;
+
+}
+#foot{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: dodgerblue;
+	padding: 20px 0px;
+	text-align: center;
+
+
+}
+#foot-icons{
+	width: 100%;
+	height: auto;
+	margin: auto;
+
+}
+img{
+	width: 100px;
+	height: 100px;
+	padding: 50px;
+}
+#container{
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.content-area{
+	border-top: 3px solid black;
+	
+}
+#main-area{
+	width: 40%;
+	float: left;
+}
+#sidebar{
+	width: 60%;
+	float: left;
+	
+}
+/*best way to clear the floats */
+.positioning:before,
+.positioning:after {
+	content: "";
+	display: table;
+}
+.positioning:after{
+	clear: both;
+}
+.positioning{
+	zoom: 1;
+}
